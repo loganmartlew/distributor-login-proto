@@ -1,0 +1,11 @@
+[
+    {
+        "user": "logan",
+        "pass": "123",
+        "assets": {
+            "icon1": "icon1",
+            "icon2": "icon2",
+            "icon3": "icon3"
+        }
+    }
+]

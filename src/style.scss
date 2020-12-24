@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  padding: 10px 0;
+
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 190px;
+
+    #nav-logo {
+      height: 90px;
+    }
+  }
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  font-family: 'Libre Franklin', sans-serif;
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #888;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+  }
+}
+
+.nav-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.button {
+  margin: 0 5px;
+  padding: 11px 15px;
+  font-family: 'Libre Franklin', sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: 100ms;
+
+  &.log-in {
+    color: #888;
+    border: 2px solid #888;
+
+    &:hover {
+      color: #4778b5;
+      border: 2px solid #4778b5;
+    }
+  }
+
+  &.register {
+    background-color: #4778b5;
+    color: #fff;
+    border: 2px solid #4778b5;
+
+    &:hover {
+      background-color: #6088b9;
+      border: 2px solid #6088b9;
+    }
+  }
+}
